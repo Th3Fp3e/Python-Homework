@@ -3,7 +3,7 @@
 # *Пример:*
 
 # 123 -> 6 (1 + 2 + 3)
-# 100 -> 1 (1 + 0 + 0) 
+# 100 -> 1 (1 + 0 + 0)
 
 num = input('Enter a three-digit number:')
 result = 0
