@@ -12,10 +12,10 @@
 
 from random import randint
 
-n_set = set(randint(1, 20) for i in range(int(input('Введите кол-во элементов первого множества: '))))
+n_set = set(randint(1, 20) for i in range(int(input('Enter the length of the first set: '))))
 print(n_set)
 
-m_set = set(randint(1, 20) for i in range(int(input('Введите кол-во элементов второго множества: '))))
+m_set = set(randint(1, 20) for i in range(int(input('Enter the length of the second set: '))))
 print(m_set)
 
 s_set = sorted(n_set.intersection(m_set))
