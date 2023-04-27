@@ -31,4 +31,4 @@ elif a == len(list_1):
     res = list_1[-2] + list_1[-1] + list_1[0]
 else:
     res = list_1[a-1] + list_1[a-2] + list_1[a]
-print(res, 'ягод')
+print(res, 'number of berries')
