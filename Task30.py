@@ -10,4 +10,4 @@ n = int(input('Enter the number of elements: '))
 b = int(input('Enter the step value: '))
 
 for i in range(n):
-    print (a + i * b)
+    print(a + i * b)
